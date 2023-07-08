@@ -21,8 +21,9 @@ body {
     font-weight: 700;
     padding: 12px 26px;
 }
+
 .cmn-btn:hover {
-    background-color: #9f7150;
+    background: #9f7150;
     cursor: pointer;
 }
 
@@ -33,6 +34,7 @@ nav {
     align-content: center;
     /* align-items: center; */
     justify-content: space-between;
+    padding: 0 200px;
 }
 
 nav>ul {
@@ -55,4 +57,17 @@ nav li {
     color: #181818;
     font-size: 45px;
     font-size: 800;
+}
+
+/*  header styles */
+.header {
+    background: #FFF8F3;
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.pro-pic{
+    width: 500px;
 }
