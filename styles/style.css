@@ -1,7 +1,7 @@
-/* *{
+*{
     padding: 0px;
     margin: 0px;
-} */
+}
 
 /* common styles */
 body {
@@ -17,9 +17,9 @@ body {
     background: #FD6E0A;
     border: 0;
     color: white;
-    font-size: 20px;
+    font-size: 1.5vw;
     font-weight: 700;
-    padding: 12px 26px;
+    padding: 1em 1em;
 }
 
 .cmn-btn:hover {
@@ -29,13 +29,12 @@ body {
 
 
 /* nav styles */
-nav {
+.nav1 {
     display: flex;
     align-content: center;
-    /* align-items: center; */
     justify-content: space-between;
-    padding: 0 200px;
 }
+
 
 nav>ul {
     display: flex;
@@ -49,25 +48,59 @@ nav a {
 
 nav li {
     list-style: none;
-    margin-right: 50px;
+    margin-right: 3vw;
 
 }
 
 .nav-title {
     color: #181818;
-    font-size: 45px;
-    font-size: 800;
+    font-size: 8vw;
+    font-weight: 800;
+    padding: 0 25vw 0 12vw;
 }
 
 /*  header styles */
 .header {
     background: #FFF8F3;
+    background-image: url(../resources/images/developer.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 7vw;
 }
-.banner{
-    padding: 30px 30px 30px 150px;
+
+.banner {
+    padding: 10vh 10vw 0 12vw;
     display: flex;
+    justify-content: space-between;
     align-items: center;
+    background-image: url(../resources/images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 46vw;
+    gap: 9vw;
 }
-.pro-pic{
-    width: 500px;
+
+
+.pro-pic {
+    width: 30vw;
+    padding-left: 20vw;
+}
+
+.banner-greeting {
+    font-size: 4vw;
+    color: #646262;
+}
+
+.banner-name {
+    font-size: 5vw;
+    font-weight: 700;
+}
+.banner-about {
+    font-size: 1.4vw;      
+    font-weight: 400;
+    padding-bottom: 2vh;
+}
+.banner-btn{
+    display: flex;
+    gap: 2vw;
 }
