@@ -1,4 +1,4 @@
-*{
+* {
     padding: 0px;
     margin: 0px;
 }
@@ -29,11 +29,20 @@ body {
 
 
 /* nav styles */
-.nav1 {
+.nav-bar {
     display: flex;
     align-content: center;
     justify-content: space-between;
+    padding-top: 5vh;
 }
+.nav-right {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
 
 
 nav>ul {
@@ -60,9 +69,47 @@ nav li {
     padding: 0 25vw 0 10vw;
 }
 
+.menu-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4vw;
+    color: #474747;
+    padding-right: 4vw;
+   
+    align-self:center;
+    position: sticky;
+    top: 6vh;
+    
+
+}
+
+
+
+.menu-item {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    border: none;
+    padding: 3vw 0 0 0;
+    list-style-type: none;
+    
+}
+
+.menu-icon:hover .menu-item{
+    display: block;
+    padding-right: 3vw;
+}
+.menu-item ul li {
+    padding: 1vh 5vw 1vh 0;
+}
+.menu-item li a {
+    color:#121111;
+}
+
 /*  header styles */
 .header {
-    background: #FFF8F3;
+    /* background: #FFF8F3; */
     background-image: url(../resources/images/developer.png);
     background-repeat: no-repeat;
     background-position: left;
@@ -70,7 +117,7 @@ nav li {
 }
 
 .banner {
-    padding:15vw 0 0 10vw;
+    padding: 15vw 0 0 10vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -96,12 +143,14 @@ nav li {
     font-size: 4vw;
     font-weight: 700;
 }
+
 .banner-about {
-    font-size: 1vw;      
+    font-size: 1vw;
     font-weight: 400;
     padding-bottom: 2vh;
 }
-.banner-btn{
+
+.banner-btn {
     display: flex;
     gap: 2vw;
 }
